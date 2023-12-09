@@ -1,0 +1,60 @@
+.formDiv{
+    background-color: antiquewhite;
+    width: 350px;
+    margin: auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+input, button{
+    width: 90%;
+    margin: 5px auto 0 auto;
+    padding: 15px 5px;
+    background-color: aliceblue;
+    border: none;
+    color: black;
+    font-weight: 600;
+}
+
+button{
+    width: 95%;
+    background-color: blueviolet !important;
+
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* input[type="number"] {
+  -moz-appearance: textfield;
+} */
+
+p{
+    color:red;
+    text-align: left;
+    margin: 0 0 10px 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.successMsg{
+    width: 95%;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0 auto 10px auto;
+}
+
+.successMsg input{
+    background-color: aqua;
+    border: none;
+}
+
+.successMsg input:focus{
+    border: none;
+    outline: none;
+}
